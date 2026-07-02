@@ -1,0 +1,7 @@
+if game.PlaceId == 2414851778 then
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/cf962c665325b6e12f0785cbf1a03983b9f4a8b0d86641a172836176b1abc871/download"))()
+elseif game.PlaceId ~= 2414851778 then
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/cf962c665325b6e12f0785cbf1a03983b9f4a8b0d86641a172836176b1abc871/download"))()
+elseif game.PlaceId == 6735572261 then
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/7b11cbb9d5313269871a027e22d00606d708ccb51dafb62cace0c6965293627e/download"))()
+end
